@@ -1,0 +1,27 @@
+# Google DeepMind Concordia Framework Dependencies
+git+https://github.com/google-deepmind/concordia.git
+
+# Language Model Support - Llama-3-8B via Ollama
+# NOTE: Ollama is OPTIONAL - agent works perfectly without it using enhanced fallback
+ollama  # Optional: For enhanced message generation (agent works without this)
+requests>=2.28.0  
+transformers>=4.30.0
+torch>=2.0.0
+
+# Data Processing and Analysis
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Development and Testing
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+
+# Logging and Monitoring
+structlog>=23.0.0
+
+# Utilities
+python-dateutil>=2.8.0
+typing-extensions>=4.5.0
